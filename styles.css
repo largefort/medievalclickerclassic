@@ -1,12 +1,3 @@
-body {
-    font-family: "Times New Roman", Times, serif;
-    background-color: #2a1d0e;
-    color: #e2c293;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-}
-
 /* Disable text selection */
 * {
     -webkit-user-select: none; /* Safari */
@@ -15,6 +6,14 @@ body {
     user-select: none; /* Standard */
 }
 
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #2a1d0e;
+    color: #e2c293;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
 
 .container {
     margin: 2% auto;
