@@ -32,27 +32,12 @@ body {
     border: 5px solid #532c08;
     cursor: pointer;
     transition: transform 0.3s;
-    animation: wobble 0.5s infinite alternate; /* Added animation for wobble effect */
 }
-
-@keyframes wobble {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(5deg); /* Adjust the angle for your desired wobble effect */
-    }
-}
-
-#castle:hover {
-    transform: scale(1.1) rotate(0deg); /* Adjust the scale and rotation as needed */
-}
-
 #upgrades-container, #owned-upgrades, #skilling-tab {
-    display: flex;
+    display: fixed;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .upgrade, .skilling-btn {
