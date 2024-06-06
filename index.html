@@ -36,7 +36,7 @@
             color: #f4e4b5;
             background-color: #5a3921;
             border: 2px solid #8a5c2e;
-            padding: 10px;
+            padding: 20px;
             margin-bottom: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
@@ -56,6 +56,63 @@
             border: 3px solid #8a5c2e;
             padding: 20px;
             border-radius: 10px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+
+            #castle {
+                width: 30%;
+                height: auto;
+            }
+
+            .upgrade {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .nav-link i {
+                font-size: 18px;
+            }
+
+            #counter {
+                font-size: 18px;
+            }
+
+            .tab-pane h2 {
+                font-size: 20px;
+            }
+
+            .nav-pills .nav-link {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .nav-pills .nav-link {
+                font-size: 12px;
+                padding: 5px;
+            }
+
+            .upgrade {
+                padding: 5px;
+                font-size: 12px;
+            }
+
+            #counter {
+                font-size: 16px;
+            }
+
+            .tab-pane h2 {
+                font-size: 18px;
+            }
+
+            .container {
+                padding: 5px;
+            }
         }
     </style>
 </head>
